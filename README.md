@@ -16,6 +16,6 @@ Thanks for checking out this front-end coding challenge.
 
 As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
 
-- [GitHub Pages](https://pages.github.com/)
+- [GitHub Pages]( https://babalonogqala23.github.io/blog-preview-card-main/)
 
 
