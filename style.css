@@ -8,12 +8,78 @@ html {
     height: 100%;
     width: 100%;
     background: #f4d04e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
 }
 
 .blog-card {
     width: 384px;
-    height: 522px;
+    height: 500px;
     background: #ffffff;
     border-radius: 20px;
     box-shadow: black 10px 7px;
+    margin: 100px auto;
+    padding: 24px;
+}
+
+.blog-card img {
+    width: 336px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.card-content {
+    padding: 12px 0;
+}
+
+.card-content a {
+    padding: 4px 12px;
+    border-radius: 4px;
+    color: #111111;
+    background-color: #f4d04e;
+    text-decoration: none;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.card-content h5 {
+    padding: 12px 0;
+    line-height: 150%;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.card-content h2 {
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.card-content p {
+    padding-top: 12px;
+    color: #6b6b6b;
+    font-size: 16px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.author img {
+    background-attachment: fixed;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+
+}
+
+.author p {
+    font-weight: 800;
+    font-size: 13px;
+    padding-left: 12px;
 }
