@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background: #f4d04e;
+}
+
+.blog-card {
+    width: 384px;
+    height: 522px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: black 10px 7px;
+}
